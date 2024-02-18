@@ -1,0 +1,85 @@
+.hero {
+  background-image: url("../pictures/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 633px;
+  height: 100vh;
+}
+.title > h1 {
+  font-weight: 600;
+  font-size: 48px;
+  font-style: italic;
+  line-height: 115.5%;
+  color: #524a4e;
+  max-width: 560px;
+  margin-bottom: 10px;
+}
+.title > p {
+  color: #fff;
+  max-width: 425px;
+  margin-top: 22px;
+  margin-bottom: 80px;
+  font-size: 24px;
+}
+.more-button {
+  background-color: #ff5c8d;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 194px;
+  width: 100vw;
+  height: 40px;
+  padding: 20px;
+  border-radius: 32px;
+}
+.more-button:hover {
+  background-color: #97294a;
+}
+
+.button-1 {
+  background-image: url("../pictures/tentang-kami.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 347px;
+  height: 212px;
+  width: 100%;
+}
+.button-2 {
+  background-image: url("../pictures/produk.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 347px;
+  height: 212px;
+  width: 100%;
+}
+.button-3 {
+  background-image: url("../pictures/peluang-bisnis.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 347px;
+  height: 212px;
+  width: 100%;
+}
+
+.notes-content {
+  width: 100vw;
+}
+.notes-content img {
+  max-width: 540px;
+  max-height: 376px;
+  width: 100vw;
+  height: 100vh;
+}
+.notes-text {
+  max-width: 497px;
+  width: 100vw;
+  font-size: 14px;
+}
+.notes-text > h3 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 26px;
+  color: #ff5c8d;
+  margin-bottom: 10px;
+}

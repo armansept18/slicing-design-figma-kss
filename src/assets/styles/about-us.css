@@ -1,0 +1,48 @@
+.about-us {
+  background-image: url("../pictures/about-us.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 639px;
+  height: 100vh;
+}
+.about-text > h1 {
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.about-text > p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 861px;
+  width: 100vw;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  line-height: auto;
+}
+.button-selengkapnya {
+  background-color: #fdeff4;
+  color: #524a4e;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 243px;
+  width: 100vw;
+  height: 49px;
+  padding: 10px;
+  border-radius: 39px;
+}
+.button-selengkapnya:hover {
+  background-color: #b2acae;
+}
+
+.sub-title {
+  font-weight: bold;
+  font-size: 36px;
+}
+.sub-text {
+  font-weight: 500;
+  font-size: 18px;
+  max-width: 762px;
+  width: 100vw;
+}

@@ -1,0 +1,27 @@
+.title {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.text-produk {
+  font-weight: 500;
+  font-size: 18px;
+  max-width: 762px;
+  width: 100vw;
+}
+
+.product-button {
+  background-color: #ff5c8d;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 163px;
+  width: 100vw;
+  height: 50px;
+  padding: 10px;
+  border-radius: 55px;
+}
+.product-button:hover {
+  background-color: #97294a;
+}

@@ -1,0 +1,17 @@
+footer {
+  background-color: #524a4e;
+}
+
+.logo {
+  max-width: 197px;
+  width: 100vw;
+  height: 57px;
+}
+
+footer > div > div > p {
+  max-width: 593px;
+}
+
+.address {
+  max-width: 288px;
+}

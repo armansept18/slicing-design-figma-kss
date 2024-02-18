@@ -1,0 +1,77 @@
+.peluang-bisnis {
+  background-image: url("../pictures/peluang-bisnis2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 706px;
+  height: 100vh;
+}
+.peluang-bisnis-button {
+  background-color: #fdeff4;
+  color: #524a4e;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  max-width: 287px;
+  width: 100vw;
+  height: 57px;
+  padding: 10px;
+  border-radius: 42px;
+}
+.peluang-bisnis-button:hover {
+  background-color: #b2acae;
+}
+.title-peluang-bisnis {
+  color: #fdeff4;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 164%;
+}
+.subtitle {
+  font-weight: bold;
+  font-size: 24px;
+}
+.peluang-text {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fdeff4;
+  max-width: 762px;
+}
+.kss-text {
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 762px;
+  width: 100vw;
+}
+.bekerja-text {
+  font-weight: 500;
+  font-size: 14px;
+  max-width: 994px;
+}
+.daftar-text {
+  font-weight: 600;
+  font-size: 14px;
+  max-width: 994px;
+}
+.bisnis-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+.bisnis-text {
+  font-weight: 500;
+  font-size: 14px;
+}
+.button-daftar {
+  background-color: #ff5c8d;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 600;
+  max-width: 347px;
+  width: 100vw;
+  height: 67px;
+  padding: 10px;
+  border-radius: 42px;
+}
+.button-daftar:hover {
+  background-color: #97294a;
+}
