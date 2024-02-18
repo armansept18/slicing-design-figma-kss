@@ -16,7 +16,7 @@ nav {
   max-width: 450px;
   width: 100vw;
 }
-.nav-link a {
+.anchor {
   position: relative;
   color: #fdeff4;
   text-decoration: none;
@@ -26,11 +26,11 @@ nav {
   text-align: center;
 }
 
-.nav-link a.active {
+.anchor.active {
   color: #fdeff4;
 }
 
-.nav-link a::after {
+.anchor::after {
   content: "";
   position: absolute;
   left: 10%;
@@ -43,8 +43,8 @@ nav {
   transition: transform 0.3s ease-in-out;
 }
 
-.nav-link a:hover::after,
-.nav-link a.active::after {
+.anchor:hover::after,
+.anchor.active::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }

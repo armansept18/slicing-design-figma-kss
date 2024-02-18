@@ -2,13 +2,14 @@ import { Button } from "@chakra-ui/react";
 import Logo from "../assets/pictures/logo.png";
 import "../assets/styles/navbar.css";
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   useEffect(() => {
     const path = window.location.pathname;
-    const links = document.querySelectorAll(".nav-link a");
+    const links = document.querySelectorAll(".anchor");
     links.forEach((link) => {
-      if (link.getAttribute("href") === path) {
+      if (link.getAttribute("to") === path) {
         link.classList.add("active");
       }
     });
@@ -19,10 +20,26 @@ export const Navbar = () => {
         <img src={Logo} alt="logo-image" />
         <div className="flex justify-between items-center gap-10">
           <div className="nav-link flex justify-between items-center">
-            <a href="/">Beranda</a>
-            <a href="/tentang-kami">Tentang Kami</a>
-            <a href="/produk">Produk</a>
-            <a href="/peluang-bisnis">Peluang Bisnis</a>
+            <NavLink className="anchor" to="/" activeClassName="active" exact>
+              Beranda
+            </NavLink>
+            <NavLink
+              className="anchor"
+              to="/tentang-kami"
+              activeClassName="active"
+            >
+              Tentang Kami
+            </NavLink>
+            <NavLink className="anchor" to="/produk" activeClassName="active">
+              Produk
+            </NavLink>
+            <NavLink
+              className="anchor"
+              to="/peluang-bisnis"
+              activeClassName="active"
+            >
+              Peluang Bisnis
+            </NavLink>
           </div>
           <Button className="gap-1">
             <svg
